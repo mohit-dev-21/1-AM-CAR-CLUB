@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>1 AM CAR CLUB</title>
+<link rel="shortcut icon" href="assets\images\LOGO.jpg" type="image/x-icon">
+<link rel="icon" href="assets\images\LOGO.jpg" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,600,700" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+<!-- Support for HTML5 -->
+<!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body class="inner_bgbuy">
+<div class="wrapper">
+    <!-- Header Begins -->
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4 col-xs-6">
+            <div class="logo"><img src="assets\images\LOGO.jpg" class="img-responsive"></div>
+            <ul class="contact pull-right hidden-sm hidden-md hidden-lg">
+              <li class="pull-left"><i class="far fa-envelope"></i>&nbsp;&nbsp;aggarwalmohit513@gmail.com</li>
+              <li class="pull-right hidden-xs">|</li>
+              <li class="pull-left"><i class="fas fa-phone"></i>&nbsp;&nbsp;+91 8826016954</li>
+            </ul>
+          </div>
+          <div class="col-sm-8 col-xs-6">
+            <div class="right-top">
+              <ul class="contact pull-right hidden-xs">
+                <li class="pull-right"><i class="far fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:info@ruxanakazi.com">aggarwalmohit513@gmail.com</a></li>
+                <li class="pull-right">|</li>
+                <li class="pull-right"><i class="fas fa-phone"></i>&nbsp;&nbsp;+91 8826016954</li>
+              </ul>
+              <nav class="navbar navbar-default pull-right">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="hidden-xs">|</li>
+                    <li><a href="sell.html">SELL</a></li>
+                <li class="hidden-xs">|</li><li class="active"><a href="buy.html">BUY</a></li>
+
+                <li class="hidden-xs">|</li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li class="hidden-xs">|</li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Ends -->
+    <!-- Main Content Area Begins -->
+    <section class="innerPages detail">
+      <div class="container">
+
+        <h1>FORD MUSTANG <a class="all_treat pull-right" href="sedanbuy.html"><i class="fas fa-angle-left"></i> Back to All COUPE</a></h1>
+
+
+        <div class="row">
+        <div class="col-md-8">
+<p>The Ford Mustang family has a legendary history and is populated by models with diverse personalities. This year, that history is recalled by the revival of the Mach 1 moniker, first seen on the 1969 'Stang. The 2021 Mustang will still come as a coupe or a convertible, and its stable of high-performance offerings will be as full as ever. </p>
+<p>Whether it’s the turbocharged four-cylinder EcoBoost or the V-8-powered GT, every version of the original pony car can be armed with track weaponry to challenge its Chevy Camaro or Dodge Challenger counterparts. The Ford's beautiful bodywork, vast personalization options, and practical interior also make it desirable to folks who care less about lap times and more about sporty everyday transportation. And that's why the Mustang continues to be an icon: it offers something for everyone.</p>
+<h3>FOR MORE DETAILS</h3>
+<h4>CALL US AT +918826016954</h4>
+    </div>
+        <div class="col-md-4">
+        <img class="img-responsive" src="assets\images\buy\coupe\Ford Mustang.jpg">
+        </div>
+        </div>
+        </div>
+    </section>
+    <!-- Main Content Area ends -->
+    <!-- Footer Begins -->
+    <footer>
+      <div class="container-fluid"> &copy; Copyright 2021. All Rights Reserved. 1 AM CAR CLUB. </div>
+    </footer>
+    <!-- Footer Ends -->
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	var $item = $('.item');
+	var $wHeight = $(window).height();
+	$item.eq(0).addClass('active');
+	$item.height($wHeight);
+	$item.addClass('full-screen');
+
+	$('.carousel img').each(function() {
+	  var $src = $(this).attr('src');
+	  var $color = $(this).attr('data-color');
+	  $(this).parent().css({
+		'background-image' : 'url(' + $src + ')',
+		'background-color' : $color
+	  });
+	  $(this).remove();
+	});
+
+	$(window).on('resize', function (){
+	  $wHeight = $(window).height();
+	  $item.height($wHeight);
+	});
+
+	$('.carousel').carousel({
+	  interval: 6000,
+	  pause: "false"
+	});
+
+</script>
+</body>
+</html>

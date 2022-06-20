@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>1 AM CAR CLUB</title>
+<link rel="shortcut icon" href="assets\images\LOGO.jpg" type="image/x-icon">
+<link rel="icon" href="assets\images\LOGO.jpg" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,600,700" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+<!-- Support for HTML5 -->
+<!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body class="inner_bgsell">
+<div class="wrapper">
+    <!-- Header Begins -->
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4 col-xs-6">
+            <div class="logo"><img src="Best\assets\images\LOGO.jpg" class="img-responsive"></div>
+            <ul class="contact pull-right hidden-sm hidden-md hidden-lg">
+              <li class="pull-left"><i class="far fa-envelope"></i>&nbsp;&nbsp;aggarwalmohit513@gmail.com</li>
+              <li class="pull-right hidden-xs">|</li>
+              <li class="pull-left"><i class="fas fa-phone"></i>&nbsp;&nbsp;+91 8826016954</li>
+            </ul>
+          </div>
+          <div class="col-sm-8 col-xs-6">
+            <div class="right-top">
+              <ul class="contact pull-right hidden-xs">
+                <li class="pull-right"><i class="far fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:info@ruxanakazi.com">aggarwalmohit513@gmail.com</a></li>
+                <li class="pull-right">|</li>
+                <li class="pull-right"><i class="fas fa-phone"></i>&nbsp;&nbsp;+91 8826016954</li>
+              </ul>
+              <nav class="navbar navbar-default pull-right">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="hidden-xs">|</li><li class="active"><a href="sell.html">SELL</a></li>
+                    <li class="hidden-xs">|</li>
+<li><a href="buy.html">BUY</a></li>
+                <li class="hidden-xs">|</li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li class="hidden-xs">|</li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Ends -->
+    <!-- Main Content Area Begins -->
+    <section class="innerPages detail">
+      <div class="container">
+
+        <h1>CONVERTIBLE <a class="all_treat pull-right" href="sell.html"><i class="fas fa-angle-left"></i> Back to All Types of cars</a></h1>
+
+        <h2>VEHCILE DETAILS</h2>
+        <div class="row">
+        <div class="col-md-8">
+          <label for="ownername" class="fonte">OWNER NAME:</label><br>
+            <input type="text" id="ownername" name="ownername"><br>
+            <label for="address" class="fonte">ADDRESS:</label><br>
+  <input type="text" id="address" name="address"><br>
+  <label for="phnno" class="fonte">PHONE NUMBER:</label><br>
+  <input type="number" id="phnno" name="phnno"><br>
+  <label for="brand" class="fonte">BRAND:</label><br>
+  <input type="text" id="brand" name="brand"><br>
+  <label for="model" class="fonte" >MODEL</label><br>
+  <input type="text" id="model" name="model"><br>
+  <label for="vehcileno" class="fonte">VEHCILE NUMBER:</label><br>
+  <input type="text" id="vehcileno" name="vehcileno"><br>
+  <label for="engineno" class="fonte">ENGINE NUMBER:</label><br>
+  <input type="text" id="engineno" name="engineno"><br>
+  <label for="kmdriven" class="fonte">KM DRIVEN:</label><br>
+  <input type="number" id="kmdriven" name="kmdriven"><br>
+  <label for="fueltype" class="fonte">FUEL TYPE:</label><br>
+  <input type="text" id="fueltype" name="fueltype"><br>
+  <label for="chassisno" class="fonte">CHASSIS NUMBER:</label><br>
+  <input type="text" id="chassisno" name="chassisno"><br>
+  <label for="yop" class="fonte">YEAR OF PURCHASE:</label><br>
+    <button type="button" class="btn btn-primary into">SUBMIT</button>
+  <a href="thank.html">
+    <input class="sub" type="submit" value="Submit">
+  </a>
+
+	    </div>
+        <div class="col-md-4">
+        <img class="img-responsive" src="assets\images\type\CONVERTIBLE.jpg">
+        </div>
+        </div>
+        </div>
+    </section>
+    <!-- Main Content Area ends -->
+    <!-- Footer Begins -->
+    <footer>
+      <div class="container-fluid"> &copy; Copyright 2021. All Rights Reserved. 1 AM CAR CLUB. </div>
+    </footer>
+    <!-- Footer Ends -->
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	var $item = $('.item');
+	var $wHeight = $(window).height();
+	$item.eq(0).addClass('active');
+	$item.height($wHeight);
+	$item.addClass('full-screen');
+
+	$('.carousel img').each(function() {
+	  var $src = $(this).attr('src');
+	  var $color = $(this).attr('data-color');
+	  $(this).parent().css({
+		'background-image' : 'url(' + $src + ')',
+		'background-color' : $color
+	  });
+	  $(this).remove();
+	});
+
+	$(window).on('resize', function (){
+	  $wHeight = $(window).height();
+	  $item.height($wHeight);
+	});
+
+	$('.carousel').carousel({
+	  interval: 6000,
+	  pause: "false"
+	});
+
+</script>
+</body>
+</html>
